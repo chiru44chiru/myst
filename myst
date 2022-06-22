@@ -1,0 +1,9 @@
+sudo docker rm -f peer2profit || true && sudo docker run -d --restart always  -e P2P_EMAIL=chiru44chiru@gmail.com  --name peer2profit  peer2profit/peer2profit_linux:latest
+
+docker run -d  --restart always --name tm traffmonetizer/cli:latest start accept --r/HEisLrX+GptRUioqj/X4Ig64a4NrY63GwDfJdSI/E=
+
+
+docker run -d --restart unless-stopped honeygain/honeygain -tou-accept -email chiru4chiru@gmail.com -pass CYBERwave@786  -device weC_amz1
+
+
+docker pull mysteriumnetwork/myst && docker run --cap-add NET_ADMIN -d -p 4449:4449 --name myst -v myst-data:/var/lib/mysterium-node --restart unless-stopped mysteriumnetwork/myst:latest service --agreed-terms-and-conditions
